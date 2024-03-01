@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\tema2">
+      <UniqueIdentifier>{a53a912f-1330-4208-87da-89ab06b0e4aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.c">
@@ -21,6 +24,21 @@
     <ClCompile Include="Exemplo01.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="almox1.c">
+      <Filter>Source Files\tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="almox2.c">
+      <Filter>Source Files\tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="almox3.c">
+      <Filter>Source Files\tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Almox4.c">
+      <Filter>Source Files\tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Almox5.c">
+      <Filter>Source Files\tema2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source.h">
@@ -28,6 +46,21 @@
     </ClInclude>
     <ClInclude Include="Exemplo01.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="almox1.h">
+      <Filter>Source Files\tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="almox2.h">
+      <Filter>Source Files\tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="almox3.h">
+      <Filter>Source Files\tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Almox4.h">
+      <Filter>Source Files\tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Almox5.h">
+      <Filter>Source Files\tema2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

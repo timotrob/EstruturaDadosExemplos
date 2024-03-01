@@ -1,15 +1,13 @@
-#include<stdio.h>
-#include "Exemplo01.h";
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include "almox1.h"
+#include "almox2.h"
+#include "almox3.h"
+#include "almox4.h"
 
 
-
-int main()
-{
-	int i;
-	for (i = 0; i < 5; i++) {
-		incrementar();
-	}
+int main() {
+	run_almox4();
+	return 0;	
 }
-
-
-

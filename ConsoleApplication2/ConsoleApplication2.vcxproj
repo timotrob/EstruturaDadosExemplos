@@ -127,11 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="almox2.c" />
+    <ClCompile Include="almox3.c" />
+    <ClCompile Include="Almox4.c" />
+    <ClCompile Include="Almox5.c" />
     <ClCompile Include="Exemplo01.c" />
+    <ClCompile Include="almox1.c" />
     <ClCompile Include="Source.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="almox2.h" />
+    <ClInclude Include="almox3.h" />
+    <ClInclude Include="Almox4.h" />
+    <ClInclude Include="Almox5.h" />
     <ClInclude Include="Exemplo01.h" />
+    <ClInclude Include="almox1.h" />
     <ClInclude Include="Source.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*
+	Diferenciar variáveis Static/Auto
+*/
 
 void incrementar() {
 
