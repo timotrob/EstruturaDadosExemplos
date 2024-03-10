@@ -39,6 +39,12 @@
     <ClCompile Include="Almox5.c">
       <Filter>Source Files\tema2</Filter>
     </ClCompile>
+    <ClCompile Include="Almox6.c">
+      <Filter>Source Files\tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Almox7.c">
+      <Filter>Source Files\tema2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source.h">
@@ -60,6 +66,12 @@
       <Filter>Source Files\tema2</Filter>
     </ClInclude>
     <ClInclude Include="Almox5.h">
+      <Filter>Source Files\tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Almox6.h">
+      <Filter>Source Files\tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Almox7.h">
       <Filter>Source Files\tema2</Filter>
     </ClInclude>
   </ItemGroup>
