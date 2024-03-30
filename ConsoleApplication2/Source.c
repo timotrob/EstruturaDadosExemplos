@@ -4,9 +4,10 @@
 #include <locale.h>
 #include "solver2x.h"
 #include "geom.h"
-#include "stats.h"
+#include "analise_mat.h"
+
 
 int main() {
 	setlocale(LC_ALL, "Portuguese");
-	run_stats();
+	int f = fatorial(5);
 };

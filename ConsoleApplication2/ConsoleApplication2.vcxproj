@@ -133,6 +133,7 @@
     <ClCompile Include="Almox5.c" />
     <ClCompile Include="Almox6.c" />
     <ClCompile Include="Almox7.c" />
+    <ClCompile Include="analise_mat.c" />
     <ClCompile Include="Exemplo01.c" />
     <ClCompile Include="almox1.c" />
     <ClCompile Include="geom.c" />
@@ -147,6 +148,7 @@
     <ClInclude Include="Almox5.h" />
     <ClInclude Include="Almox6.h" />
     <ClInclude Include="Almox7.h" />
+    <ClInclude Include="analise_mat.h" />
     <ClInclude Include="Exemplo01.h" />
     <ClInclude Include="almox1.h" />
     <ClInclude Include="geom.h" />

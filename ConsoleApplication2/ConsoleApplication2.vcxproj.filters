@@ -19,6 +19,9 @@
     <Filter Include="Source Files\tema3">
       <UniqueIdentifier>{62e1cbf6-b93a-4b46-a120-4efadd700e46}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\tema4">
+      <UniqueIdentifier>{91118c86-b264-4059-a3f4-8490fbb0c753}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.c">
@@ -57,6 +60,9 @@
     <ClCompile Include="stats.c">
       <Filter>Source Files\tema3</Filter>
     </ClCompile>
+    <ClCompile Include="analise_mat.c">
+      <Filter>Source Files\tema4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source.h">
@@ -94,6 +100,9 @@
     </ClInclude>
     <ClInclude Include="stats.h">
       <Filter>Source Files\tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="analise_mat.h">
+      <Filter>Source Files\tema4</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
