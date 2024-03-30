@@ -1,15 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include<math.h>
 #include <locale.h>
-#include "almox1.h"
-#include "almox2.h"
-#include "almox3.h"
-#include "almox4.h"
-#include "almox6.h"
-#include "almox7.h"
-
+#include "solver2x.h"
+#include "geom.h"
 
 int main() {
-	run_almox7();
-	return 0;	
-}
+	setlocale(LC_ALL, "Portuguese");
+	run_geom();
+};

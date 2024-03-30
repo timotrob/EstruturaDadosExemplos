@@ -102,7 +102,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -135,6 +135,8 @@
     <ClCompile Include="Almox7.c" />
     <ClCompile Include="Exemplo01.c" />
     <ClCompile Include="almox1.c" />
+    <ClCompile Include="geom.c" />
+    <ClCompile Include="solver2x.c" />
     <ClCompile Include="Source.c" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +148,8 @@
     <ClInclude Include="Almox7.h" />
     <ClInclude Include="Exemplo01.h" />
     <ClInclude Include="almox1.h" />
+    <ClInclude Include="geom.h" />
+    <ClInclude Include="solver2x.h" />
     <ClInclude Include="Source.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

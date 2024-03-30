@@ -16,6 +16,9 @@
     <Filter Include="Source Files\tema2">
       <UniqueIdentifier>{a53a912f-1330-4208-87da-89ab06b0e4aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\tema3">
+      <UniqueIdentifier>{62e1cbf6-b93a-4b46-a120-4efadd700e46}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.c">
@@ -45,6 +48,12 @@
     <ClCompile Include="Almox7.c">
       <Filter>Source Files\tema2</Filter>
     </ClCompile>
+    <ClCompile Include="solver2x.c">
+      <Filter>Source Files\tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="geom.c">
+      <Filter>Source Files\tema3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source.h">
@@ -73,6 +82,12 @@
     </ClInclude>
     <ClInclude Include="Almox7.h">
       <Filter>Source Files\tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="solver2x.h">
+      <Filter>Source Files\tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="geom.h">
+      <Filter>Source Files\tema3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
