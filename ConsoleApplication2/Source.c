@@ -4,8 +4,9 @@
 #include <locale.h>
 #include "solver2x.h"
 #include "geom.h"
+#include "stats.h"
 
 int main() {
 	setlocale(LC_ALL, "Portuguese");
-	run_geom();
+	run_stats();
 };

@@ -54,6 +54,9 @@
     <ClCompile Include="geom.c">
       <Filter>Source Files\tema3</Filter>
     </ClCompile>
+    <ClCompile Include="stats.c">
+      <Filter>Source Files\tema3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source.h">
@@ -87,6 +90,9 @@
       <Filter>Source Files\tema3</Filter>
     </ClInclude>
     <ClInclude Include="geom.h">
+      <Filter>Source Files\tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="stats.h">
       <Filter>Source Files\tema3</Filter>
     </ClInclude>
   </ItemGroup>
