@@ -10,6 +10,22 @@ double soma_array(double valores[], int n) {
     return soma;
 }
 
+
+double soma_array2(double valores[], double valores2[], int n) {
+    double soma = 0.0;
+    for (int i = 0; i < n; i++)
+    {
+        soma += valores[i];
+    }
+    for (int i = 0; i < n; i++)
+    {
+        soma += valores2[i];
+    }
+    return soma;
+}
+
+
+
 double calc_media(double valores[],int n)
 {
     double soma = soma_array(valores,n);
